@@ -1,0 +1,25 @@
+/*Steam Widget*/
+#steamwidget {border-width:5px; border-style:solid; border-color:#6a6a6a; background:linear-gradient(#303030, #161616); padding:5px; min-width:220px;}
+#steamwidget-title-area {background-color:#6a6a6a; height:20px; position:relative;}
+#steam-widget-title-text {font-family:Arial; font-weight:bold; font-size:125%; text-align:center; color:white; position:absolute; top: 50%; height:24px; margin-top:-11px; width:100%;}
+
+/*The !important declarations may be needed if you have a stubborn CMS (ie, Drupal), otherwise they can be removed*/
+.steamavatar-online {border-width:2px !important; border-radius:1px !important; border-style:solid !important; border-color:#55a5c4 !important; padding:0px !important; height:40px; float:left; margin:auto !important; position:relative; left:10px;}
+.steamavatar-offline {border-width:2px !important; border-radius:1px !important; border-style:solid !important; border-color:#6a6a6a !important; padding:0px !important; height:40px; float:left; margin:auto !important; position:relative; left:10px;}
+.steamavatar-ingame {border-width:2px !important; border-radius:1px !important; border-style:solid !important; border-color:#8fb93b !important; padding:0px !important; height:40px; float:left; margin:auto !important; position:relative; left:10px;}
+
+.steamplayer-online {font-family:Arial; font-weight:bold; color:#55a5c4; height:40px; position:relative; left:20px; top:5px;}
+.steamplayer-online a:link {color:#55a5c4;}
+.steamplayer-online a:active {color:#55a5c4;}
+.steamplayer-online a:visited {color:#55a5c4;}
+.steamplayer-online a:hover {color:#55a5c4;}
+.steamplayer-offline {font-family:Arial; font-weight:bold; color:#6a6a6a; height:40px; position:relative; left:20px; top:5px;}
+.steamplayer-offline a:link {color:#6a6a6a;}
+.steamplayer-offline a:active {color:#6a6a6a;}
+.steamplayer-offline a:visited {color:#6a6a6a;}
+.steamplayer-offline a:hover {color:#6a6a6a;}
+.steamplayer-ingame {font-family:Arial; font-weight:bold; color:#8fb93b; height:40px; position:relative; left:20px;}
+.steamplayer-ingame a:link {color:#8fb93b;}
+.steamplayer-ingame a:active {color:#8fb93b;}
+.steamplayer-ingame a:visited {color:#8fb93b;}
+.steamplayer-ingame a:hover {color:#8fb93b;}
