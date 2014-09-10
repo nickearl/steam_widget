@@ -10,7 +10,7 @@ For each member, it shows:
 -Steam player name (links to player's profile)
 -Online status (In-Game, Online, Away, Busy, Offline)
 
-
+See it in action:  www.soaseclan.net/blog
 
 
 ==What You Need==
@@ -24,7 +24,7 @@ For each member, it shows:
 
 1) Add steamwidget.php and style.css somewhere accessible.  The plugin is optimized to run as an iframe, sidebar widget, Drupal block view, etc
 
-2) Include style.css wherever you're displaying the widget or add the styles to whatever stylesheet will be used
+2) Include style.css wherever you're displaying the widget or add the styles to whatever stylesheet will be used.  The !important declarations may be needed if you have a stubborn CMS (ie, Drupal), otherwise they can be removed
 
 
 
