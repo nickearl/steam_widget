@@ -1,5 +1,6 @@
 steam_widget
 ============
+By Nicholas Earl - September 2014
 
 A simple web widget that displays the online status of a Steam group's members.
 
