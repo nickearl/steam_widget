@@ -8,7 +8,7 @@ September 2014
 libxml_use_internal_errors(true);
 
 //Config section
-$steam_key = '29E8803C5F981B2123CBBA99AD31E30D'; //Put your Steam API key here
+$steam_key = 'XXXXXXXXXXXX'; //Put your Steam API key here
 $steam_group_path = 'SOASE'; //Put your Steam Group path here
 $show_online_only = false; //Set to true to show only online players, set to false to show all players
 $groupname = $steam_group_path; //Set display name of group.  Can use '$steamgroupdecoded->groupDetails->groupName' (without quotes) to dynamicaly pull the group name
@@ -23,10 +23,8 @@ if ($steamgroup AND $steamgroup !== false AND !empty($steamgroup)){
 
 //Create a comma-separated string of group member Steam IDs
 $steamids = '';
-if (!empty($steamdgroupdecoded) AND property_exists ('members', $steamgroupdecoded)){
-	foreach($steamgroupdecoded->members->steamID64 as $value){
-		$steamids = ''.$steamids.''.$value.',';
-	}
+foreach($steamgroupdecoded->members->steamID64 as $value){
+	$steamids = ''.$steamids.''.$value.',';
 }
 
 //Get player status info
