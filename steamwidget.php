@@ -7,8 +7,13 @@ September 2014
 
 
 //Config section
+<<<<<<< HEAD
 $steam_key = '[XXXXXXXXXX]'; //Put your Steam API key here
 $steam_group_path = '[Path]'; //Put your Steam Group path here
+=======
+$steam_key = 'XXXXXXXXXXXX'; //Put your Steam API key here
+$steam_group_path = 'SOASE'; //Put your Steam Group path here
+>>>>>>> origin/master
 $show_online_only = false; //Set to true to show only online players, set to false to show all players
 $groupname = $steam_group_path; //Set display name of group.  Can use '$steamgroupdecoded->groupDetails->groupName' (without quotes) to dynamicaly pull the group name
 
